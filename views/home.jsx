@@ -7,8 +7,17 @@ function home() {
       <main>
         <h1>HOME</h1>
         <div>
-          <img src="/images/9ac7b615707d55ffc2849f59741ee940.jpg" alt="bruh" />
+          <img
+            height="800px"
+            width="800px"
+            className="img-fluid"
+            src="/images/9ac7b615707d55ffc2849f59741ee940.jpg"
+            alt="bruh"
+          />
         </div>
+        <a href="/places">
+          <button className="btn-primary">Places Page</button>
+        </a>
       </main>
     </Def>
   );
