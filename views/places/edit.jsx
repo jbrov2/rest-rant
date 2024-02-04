@@ -7,19 +7,19 @@ function edit_form(data) {
       <main>
         <form action={`/places/${data.place.id}?_method=PUT`} method="POST">
           <div className="row">
-            <div className="form-group col-sm-6">
+            <div className="col-sm-6 col-md-4 col-lg-3">
               <label htmlFor="name">Place Name</label>
               <input name="name" id="name" value={data.place.name} required />
             </div>
-            <div className="form-group col-sm-6">
+            <div className="col-sm-6 col-md-4 col-lg-3">
               <label htmlFor="pic">Place Picture</label>
               <input name="pic" id="pic" type="url" />
             </div>
-            <div className="form-group col-sm-6">
+            <div className="col-sm-6 col-md-4 col-lg-3">
               <label htmlFor="state">Place State</label>
               <input className="form-control" id="state" name="state" />
             </div>
-            <div className="form-group col-sm-6">
+            <div className="col-sm-6 col-md-4 col-lg-3">
               <label htmlFor="cuisines">Place Cuisine</label>
               <input
                 className="form-control"
